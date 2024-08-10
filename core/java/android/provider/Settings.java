@@ -13469,13 +13469,22 @@ public final class Settings {
         public static final String MHL_POWER_CHARGE_ENABLED = "mhl_power_charge_enabled";
 
         /**
-        * Whether mobile data connections are allowed by the user.  See
-        * ConnectivityManager for more info.
-        * @hide
-        */
+         * Whether mobile data connections are allowed by the user.  See
+         * ConnectivityManager for more info.
+         * @hide
+         */
         @UnsupportedAppUsage
         @Readable
         public static final String MOBILE_DATA = "mobile_data";
+
+        /**
+         * Whether mobile data connections are allowed by the user.  See
+         * ConnectivityManager for more info.
+         * @hide
+         */
+        @UnsupportedAppUsage
+        @Readable
+        public static final String MOBILE_DATA_FORCE_5G = "mobile_data_force_5g";
 
         /**
         * Whether the mobile data connection should remain active even when higher

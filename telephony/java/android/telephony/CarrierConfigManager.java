@@ -700,6 +700,12 @@ public class CarrierConfigManager {
             KEY_FORCE_HOME_NETWORK_BOOL = "force_home_network_bool";
 
     /**
+     * Force 5G
+     */
+    public static final String
+            KEY_FORCE_5G_BOOL = "force_5g_bool";
+
+    /**
      * Flag specifying whether VoLTE should be available for carrier, independent of carrier
      * provisioning. If false: hard disabled. If true: then depends on carrier provisioning,
      * availability, etc.
@@ -10420,6 +10426,7 @@ public class CarrierConfigManager {
         sDefaults.putStringArray(KEY_DIAL_STRING_REPLACE_STRING_ARRAY, null);
         sDefaults.putStringArray(KEY_INTERNATIONAL_ROAMING_DIAL_STRING_REPLACE_STRING_ARRAY, null);
         sDefaults.putBoolean(KEY_FORCE_HOME_NETWORK_BOOL, false);
+        sDefaults.putBoolean(KEY_FORCE_5G_BOOL, false);
         sDefaults.putInt(KEY_GSM_DTMF_TONE_DELAY_INT, 0);
         sDefaults.putInt(KEY_IMS_DTMF_TONE_DELAY_INT, 0);
         sDefaults.putInt(KEY_CDMA_DTMF_TONE_DELAY_INT, 100);
